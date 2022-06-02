@@ -56,13 +56,10 @@ function Post(props){
   const onClickCurtida = () => {
     setCurtido(!curtido)
     if(curtido) {
-      iconeCurtida = <IconeComContador curtido={aoCurtir}/>
+      iconeCurtida = iconeCoracaoPreto
+      setnumeroCurtidas(numeroCurtidas +1)
     }
     console.log(curtido)
-  }
-  const aoCurtir = () => {
-    setCurtido(false)
-    setnumeroCurtidas(numeroCurtidas + 1)
   }
 
   
@@ -85,8 +82,9 @@ function Post(props){
       iconeCurtida = iconeCoracaoPreto
     } else {
       iconeCurtida = iconeCoracaoBranco
+ 
     }
-
+   
     let componenteComentario
 
     if(comentando) {
@@ -106,7 +104,7 @@ function Post(props){
         <IconeComContador
           icone={iconeCurtida}
           onClickIcone={onClickCurtida}
-          valorContador={state.numeroCurtidas}
+          valorContador={numeroCurtidas}
         />
 
         <IconeComContador
