@@ -28,6 +28,20 @@ describe("Checa bissexto", () => {
   test("retorna false pra 2007", () => {
     const resultado = checaBissexto(2007);
     
-    expect(resultado).toEqual(true);
+    expect(resultado).toEqual(false);
   });
+
+  test("retorna false para 2022", () =>{
+    const resultado = checaBissexto(2022);
+
+    expect(resultado).toEqual(false);
+  });
+
+  test("retorna true para 2012", () =>{
+    const resultado = checaBissexto(2012);
+    expect(resultado).toEqual(true);
+  })
+
 });
+
+
