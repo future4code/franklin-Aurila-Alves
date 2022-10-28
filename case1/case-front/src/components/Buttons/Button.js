@@ -1,10 +1,14 @@
 import React from "react";
 import { ButtonStyle, ButtonText } from "./styles";
 
-export const ButtonGenre = (props) => {
+
+export const ButtonGenre = ({gen}) => {
   return(
     <ButtonStyle>
-      <ButtonText>{props.text}</ButtonText>
+      <ButtonText>
+      
+       <p> {gen.genres.name}</p>
+        </ButtonText>
     </ButtonStyle>
     
   )

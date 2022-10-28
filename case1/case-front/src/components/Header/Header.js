@@ -3,6 +3,8 @@ import * as S from './styles'
 
 export const Header = () => {
   return(
-    <S.HeaderStyle/>
+    <S.HeaderStyle>
+      
+    </S.HeaderStyle>
   )
 }

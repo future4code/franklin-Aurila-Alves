@@ -2,12 +2,19 @@ import styled from 'styled-components'
 
 export const MovieContainer = styled.div`
 
-border: 1px solid gray;
 
 `
 
 export const MovieBox = styled.div`
 
+width: 176px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-bottom: 20px;
+&:hover{
+  background-color: aliceblue;
+}
 `
 
 export const MovieImg = styled.img`
