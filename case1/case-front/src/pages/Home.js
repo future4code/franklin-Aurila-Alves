@@ -27,8 +27,8 @@ const Home = () => {
 
   return (
     <>
-      {/* <TitleBox
-      /> */}
+      <TitleBox
+      />
       <ContainerHome>
         <MoviesContainer>
           {popularMovies.length === 0 ? <p>Carregando...</p>

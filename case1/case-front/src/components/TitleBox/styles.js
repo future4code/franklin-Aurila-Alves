@@ -7,21 +7,27 @@ export const BoxTitle = styled.div`
 `
 
 export const TextTitle = styled.div`
-  width: 70%;
-  height: 50%;
-  margin-right: 20%;
-  margin-left: 20%;
+  height: 30%;
+  padding: 40px 10%;
 `
 
-export const Text = styled.div`
+export const Text = styled.p`
   font-size: 48px;
   font-style: bold;
   color: #FFFFFF;
+  text-align: center;
 `
 
 export const TextFilter = styled.p`
   font-size: 14px;
   color: #FFFFFF;
-  margin-left: 40%;
+  text-align: center;
+  text-transform: uppercase;
+
+`
+export const GenreBox = styled.div`
+  width: 80%;
+  text-align: center;
+  padding: 20px 10%;
 
 `

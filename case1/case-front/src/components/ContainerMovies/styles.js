@@ -10,21 +10,25 @@ export const MovieBox = styled.div`
 width: 176px;
 display: flex;
 flex-direction: column;
-justify-content: space-between;
 padding-bottom: 20px;
 &:hover{
-  background-color: aliceblue;
+  border: 5px solid #D18000;
+  filter: brightness(1.5);
 }
 `
 
 export const MovieImg = styled.img`
 width: 176px ;
 height: 264px;
+
 `
 
 export const MovieTitle = styled.h3`
 font-size: 16px;
 color: black;
+&:hover{
+  color: #D18000;
+}
 
 `
 

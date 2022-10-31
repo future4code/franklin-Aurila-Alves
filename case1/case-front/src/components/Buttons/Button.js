@@ -7,7 +7,7 @@ export const ButtonGenre = ({gen}) => {
     <ButtonStyle>
       <ButtonText>
       
-       <p> {gen.genres.name}</p>
+       <p>{gen.name}</p>
         </ButtonText>
     </ButtonStyle>
     

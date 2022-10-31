@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { BoxDetails, MovieImg, MoviesContainer, MoviesDetails } from "./styles"
+import { BoxDetails, MoviesContainer, MoviesDetails } from "./styles"
 
 const moviesURL = process.env.REACT_APP_API;
 const apiKey = process.env.REACT_APP_API_KEY;
