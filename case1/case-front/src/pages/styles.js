@@ -28,9 +28,10 @@ export const MovieImg = styled.div`
 `
 
 export const MoviesDetails = styled.div`
-width: 50%;
-margin-right: 0px;
+width: 40%;
+margin-right: 5%;
 color: #FFF;
+padding: 20px;
 
 
 `

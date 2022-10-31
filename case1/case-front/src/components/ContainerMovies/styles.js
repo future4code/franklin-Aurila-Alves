@@ -12,7 +12,7 @@ display: flex;
 flex-direction: column;
 padding-bottom: 20px;
 &:hover{
-  border: 5px solid #D18000;
+  outline: 5px solid #D18000;
   filter: brightness(1.5);
 }
 `
